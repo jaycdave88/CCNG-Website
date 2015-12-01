@@ -2,15 +2,16 @@
 <html>
 <head>
   <title>CCNG</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+  <%= stylesheet_link_tag    'application', media: 'all'%>
+  <%= javascript_include_tag 'application'%>
+
+  <script src="http://keith-wood.name/js/jquery.plugin.js"></script>
+  <script src="http://keith-wood.name/js/jquery.countdown.js"></script>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
 <%= yield %>
-   <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    
 </body>
 </html>

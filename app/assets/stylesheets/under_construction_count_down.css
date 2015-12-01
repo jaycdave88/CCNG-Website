@@ -2,7 +2,7 @@
 @import url('http://fonts.googleapis.com/css?family=Lato:400,300,700,900');
 
 body {
-	background: #394864;
+  background: #394864;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: 16px;
@@ -19,16 +19,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-size: 40px;
+  font-size: 40px;
 }
 
 h3 {
-	font-weight: 400;
+  font-weight: 400;
 }
 
 h4 {
-	font-weight: 400;
-	font-size: 20px;
+  font-weight: 400;
+  font-size: 20px;
 }
 
 p {
@@ -106,29 +106,28 @@ a:after {
   border-color: #444;
 }
 form.signup input  {
-	height: 42px;
-	width: 200px;
-	border-radius: 0;
-	border: none;
+  height: 42px;
+  width: 200px;
+  border-radius: 0;
+  border: none;
 }
 form.signup button.btn {
-	font-weight: 700;
+  font-weight: 700;
 }
 form.signup input.form-control:focus {
-	border-color: #fd680e;
+  border-color: #fd680e;
 }
 
 
 /* wrapper */
 
 #wrapper {
-	text-align: center;
-	padding: 50px 0;
-	background: url(../img/main-bg.jpg) no-repeat center top;
-	background-attachment: relative;
-	background-position: center center;
-	min-height: 650px;
-	width: 100%;	
+  text-align: center;
+  padding: 50px 0;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 650px;
+  width: 100%;  
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -140,34 +139,66 @@ form.signup input.form-control:focus {
     background-size: cover;
 }
 
-
-
 #wrapper h1 {
-	margin-top: 60px;
-	margin-bottom: 40px;
-	color: #fff;
-	font-size: 45px;
-	font-weight: 900;
-	letter-spacing: -1px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  color: #fff;
+  font-size: 45px;
+  font-weight: 900;
+  letter-spacing: -1px;
 }
 
 h2.subtitle {
-	color: #fff;
-	font-size: 24px;
+  color: #fff;
+  font-size: 24px;
 }
 
 /* countdown */
 #countdown {
-	font-size: 48px;
-	color: #fff;
-	line-height: 1.1em;
-	margin: 40px 0 60px;
+  font-size: 48px;
+  color: #fff;
+  line-height: 1.1em;
+  margin: 40px 0 60px;
 }
 
 
 /* footer */
 p.copyright {
-	margin-top: 50px;
-	color: #fff;
-	text-align: center;
-}	
+  margin-top: 50px;
+  color: #fff;
+  text-align: center;
+} 
+
+/*countdown*/
+
+.countdown-row {
+  display:block;
+  padding: 10px;
+
+}
+
+.countdown-section {
+
+  display:inline-block;
+  text-align: center;
+}
+
+.countdown-section>span {
+  display:block;
+}
+
+.countdown-section+.countdown-section {
+  margin-left:5%;
+}
+
+.countdown-section .countdown-amount {
+  margin-bottom:4px;
+}
+
+.countdown-section .countdown-period {
+  text-transform:uppercase;
+  font-weight:300;
+  font-size:10px;
+  line-height:15px;
+  letter-spacing:6px;
+}
