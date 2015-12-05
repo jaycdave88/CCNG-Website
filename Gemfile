@@ -11,6 +11,7 @@ gem 'pg'
 gem 'rake'
 gem 'tzinfo-data'
 gem 'countdown'
+gem 'twitter-bootstrap-rails'
 
 group :development, :test do
   gem 'byebug'
